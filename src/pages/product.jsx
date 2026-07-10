@@ -6,7 +6,7 @@ function Producto() {
     return (
         <div className="App">
             <Navbar />
-            <section className="sections" id="productos">
+            <section className="sections-p">
                 <div className="infoProduct">
                     <img src={fondoG} alt="Producto1" className='img-i' />
                     <div className="Grid-inf">

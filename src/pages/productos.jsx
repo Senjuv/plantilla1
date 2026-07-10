@@ -7,7 +7,7 @@ function Productos() {
     return (
         <div className="App">
             <Navbar />
-            <section className="sections" id="productos">
+            <section className="sections-p" id="productos">
                 <h2 className='Tittle-mid'>Nuestros Productos</h2>
                 <div className="Grid-p">
                     <div>

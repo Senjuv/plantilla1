@@ -1,7 +1,8 @@
-.sections {
-    padding: 1vh;
+.sections-p {
     margin: 5vh;
-    margin-top: 8vh;
+    margin-bottom: 15vh;
+    margin-top: 10vh;
+    padding: 4vh;
 }
 
 .Grid-p {
@@ -70,6 +71,7 @@
     background-color: rgb(80, 83, 87);
     cursor: pointer;
 }
+
 
 
 

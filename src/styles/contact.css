@@ -1,4 +1,67 @@
-.sections{
+.sections-c{
+    height: 100%;
     margin-top: 10vh;
     padding: 5vh;
+}
+
+.formContainer{
+    margin-left: 20vh;
+    position: relative;
+    z-index: 10;
+    width: 50vh;
+    height: 100%;
+    background-color: rgb(203, 206, 206);
+    padding: 4vh;
+}
+
+.Form{
+display: flex;
+justify-content: center;
+text-align: left;
+}
+
+.input-t{
+    width: 40vh;
+    height: 4vh;
+    border-radius: 5px;
+}
+
+.Mesajeform{
+    width: 40vh;
+    height: 15vh;
+    border-radius: 5px;
+}
+.tittleform{
+    font-size: 20px;
+    vertical-align: center;
+    text-shadow: 0.5px 0.5px 0.5px rgb(36, 34, 34);
+}
+
+.contact{
+    display: block;
+}
+
+.Button-E {
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 1vh;
+    width: 40vh;
+    height: 5vh;
+    background-color: rgb(25, 56, 102);
+    color: white;
+    border-radius: 8px;
+    border-width: 0.5px;
+}
+
+.Button-E:hover {
+    background-color: rgb(1, 16, 36);
+    cursor: pointer;
+    color: rgb(105, 133, 105);
+}
+
+.img-c{
+    width: 50%;
+    height: 60%;
+    transform: translate(20px,-50vh);
+    z-index: -1;
 }
