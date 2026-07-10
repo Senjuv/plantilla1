@@ -1,0 +1,75 @@
+.sections {
+    padding: 1vh;
+    margin: 5vh;
+    margin-top: 8vh;
+}
+
+.Grid-p {
+    padding: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 20vh;
+}
+
+.Grid-inf{
+    padding: 2vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 4vh;
+    vertical-align: middle;
+}
+
+.InfoName {
+    font-size: 20px;
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 3vh;
+    margin-right: 5vh;
+}
+
+.infoProduct {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4vh;
+}
+
+.infoNameP {
+    color: rgb(56, 54, 54);
+    font-size: 20px;
+    text-align: left;
+    vertical-align: middle;
+    margin-right: 10vh;
+}
+
+.img-p {
+    width: 90%;
+    height: 100%;
+    transition: transform 1s ease;
+}
+
+.img-p:hover {
+    transform: scale(1.5, 1.5);
+    ;
+    transition: transform 1s ease;
+}
+
+.Button-c {
+    vertical-align: middle;
+    margin-top: 10vh;
+    width: 20vh;
+    height: 5vh;
+    background-color: rgb(207, 204, 204);
+    border-radius: 8px;
+    border-width: 0.5px;
+}
+
+.Button-c:hover {
+    background-color: rgb(80, 83, 87);
+    cursor: pointer;
+}
+
+
+

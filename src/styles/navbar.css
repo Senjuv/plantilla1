@@ -1,0 +1,48 @@
+.sections {
+    padding: 1vh;
+    margin: 5vh;
+}
+
+.App-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 99%;
+    max-width: 95%;
+    min-width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    z-index: 100;
+}
+
+.Title-nav {
+    text-shadow: 1px 1px 1px rgb(117, 101, 101);
+    margin-top: 2vh;
+    padding: 2vh;
+}
+
+.items {
+    display: inline-flex;
+    align-items: middle;
+    gap: 5vh;
+    padding: 2vh;
+}
+
+.link-a {
+    text-decoration: none;
+    color: black
+}
+
+.link-a:hover {
+    color: blue;
+}
+
+.list-nav {
+    text-align: right;
+}
+
+.App-link {
+    color: #61dafb;
+}

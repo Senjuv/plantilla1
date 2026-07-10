@@ -1,0 +1,30 @@
+.sections {
+    padding: 1vh;
+    margin: 5vh;
+}
+
+.App-body {
+    margin-top: 20vh;
+    display: block;
+    justify-content: center;
+}
+
+.Title-bod {
+    font-size: 20vh;
+    text-shadow: 1px 2px 5px gray;
+}
+
+.Cont-img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 8vh;
+}
+
+.img-e {
+    width: 58%;
+    height: 100%;
+    margin-bottom: 20vh;
+    transform: rotate(22deg);
+
+}

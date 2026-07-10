@@ -1,4 +1,5 @@
 import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
@@ -9,8 +10,8 @@ function Navbar() {
                     <div className='items'>
                         <p className='list-nav'><HashLink smooth to="/#inicio" className='link-a'>INICIO</HashLink></p>
                         <p className='list-nav'><HashLink smooth to="/#acerca" className='link-a'>ACERCA DE</HashLink></p>
-                        <p className='list-nav'><HashLink smooth to="/productos" className="link-a">PRODUCTOS</HashLink></p>
-                        <p className='list-nav'>CONTACTA</p>
+                        <p className='list-nav'><Link  to="/productos" className="link-a">PRODUCTOS</Link></p>
+                        <p className='list-nav'><Link  to="/contact" className="link-a">CONTACTANOS</Link></p>
                     </div>
                 </header>
             </section>

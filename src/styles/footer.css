@@ -1,0 +1,16 @@
+.App-foo {
+    padding: 3vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2vh;
+    max-width: 100%;
+}
+
+.foo-item {
+    text-align: center;
+    margin: 3vh;
+    font-size: 3vh;
+    color: whitesmoke;
+}
