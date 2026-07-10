@@ -1,8 +1,4 @@
-import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import fondoG from '../img/fondoG.jpg';
-import prod from "../pages/productos.jsx";
-
 
 function Navbar() {
     return (
