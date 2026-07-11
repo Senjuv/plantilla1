@@ -1,5 +1,4 @@
 import Navbar from "../components/navbar";
-import fondoG from '../img/fondoG.jpg';
 import Footer from '../components/footer';
 
 import oso from '../img/osito.jpeg';
