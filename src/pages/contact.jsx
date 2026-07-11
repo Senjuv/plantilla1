@@ -1,7 +1,7 @@
 import Navbar from "../components/navbar";
 import Footer from '../components/footer';
-import fondoG from '../img/fondoG.jpg';
-
+import beige from '../img/beige.webp';
+import lavander from '../img/lavandaaa.jpg';
 function Contact() {
     return (
         <div className="App">
@@ -23,8 +23,8 @@ function Contact() {
                     </div>
                 </div>
                 <div className="Pictures-c">
-                <img src={fondoG} alt="Producto1" className='img-c1' />
-                <img src={fondoG} alt="Producto1" className='img-c2' />
+                <img src={beige} alt="Producto1" className='img-c1' />
+                <img src={lavander} alt="Producto1" className='img-c2' />
                 </div>
             </section>
             <Footer />

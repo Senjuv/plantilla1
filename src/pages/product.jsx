@@ -1,5 +1,5 @@
 import Navbar from "../components/navbar";
-import fondoG from '../img/fondoG.jpg';
+import cafe from '../img/cafe.jpeg';
 import Footer from '../components/footer';
 
 function Producto() {
@@ -8,18 +8,18 @@ function Producto() {
             <Navbar />
             <section className="sections-p">
                 <div className="infoProduct">
-                    <img src={fondoG} alt="Producto1" className='img-i' />
+                    <img src={cafe} alt="Producto1" className='img-pinfo' />
                     <div className="Grid-inf">
                         <div className="item-p">
-                            <h2 className="infoNameP">Producto elegido</h2>
-                            <h2 className="infoNameP">$$</h2>
+                            <h2 className="infoNameP">Capuccino</h2>
+                            <h2 className="infoNameP">100$</h2>
                         </div>
                         <div className="Button-c">Comprar</div>
                     </div>
                 </div>
                 <div className="item-p">
-                    <h2 className="infoNameP">Informacion del producto </h2>
-                    <h2 className="infoNameP">-<br />-<br />-<br />-<br />-<br />-<br />-<br />-<br /></h2>
+                    <h2 className="infoNameP">Caracteristicas: </h2>
+                    <h2 className="infoNameP">- A base de cafe<br />- 250gr<br />- Con cera de soya<br />- 10 * 10 cm<br />- Taza de vidrio<br /></h2>
                 </div>
             </section>
             <Footer />

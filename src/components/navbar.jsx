@@ -6,7 +6,7 @@ function Navbar() {
         <>
             <section id="inicio">
                 <header className="App-header">
-                    <h2 className='Title-nav'><HashLink smooth to="/#inicio" className='link-a'>LOGOTIPO</HashLink></h2>
+                    <h2 className='Title-nav'><HashLink smooth to="/#inicio" className='link-a'>Naturally</HashLink></h2>
                     <div className='items'>
                         <p className='list-nav'><HashLink smooth to="/#inicio" className='link-a'>INICIO</HashLink></p>
                         <p className='list-nav'><HashLink smooth to="/#acerca" className='link-a'>ACERCA DE</HashLink></p>

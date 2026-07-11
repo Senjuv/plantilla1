@@ -1,11 +1,11 @@
 .img-i {
-    width: 58%;
-    height: 100%;
+    width: 75%;
+    height: 90%;
     transition: transform 1s ease;
 }
 
 .img-i:hover {
-    transform: scale(1.5, 1.5);
+    transform: scale(1.2, 1.2);
     ;
     transition: transform 1s ease;
 }
