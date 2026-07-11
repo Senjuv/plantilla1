@@ -22,7 +22,10 @@ function Contact() {
                     </form>
                     </div>
                 </div>
-                <img src={fondoG} alt="Producto1" className='img-c' />
+                <div className="Pictures-c">
+                <img src={fondoG} alt="Producto1" className='img-c1' />
+                <img src={fondoG} alt="Producto1" className='img-c2' />
+                </div>
             </section>
             <Footer />
         </div>

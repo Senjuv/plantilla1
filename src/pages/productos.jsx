@@ -33,21 +33,21 @@ function Productos() {
                     </div>
 
                     <div>
-                        <img src={fondoG} alt="Producto1" className='img-p' />
+                        <Link to="/product" ><img src={fondoG} alt="Producto1" className='img-p' /></Link>
                         <div className="infoProduct">
                             <h2 className="InfoName">Producto 4</h2>
                             <h2 className="InfoName">$$</h2>
                         </div>
                     </div>
                     <div>
-                        <img src={fondoG} alt="Producto1" className='img-p' />
+                        <Link to="/product" ><img src={fondoG} alt="Producto1" className='img-p' /></Link>
                         <div className="infoProduct">
                             <h2 className="InfoName">Producto 5</h2>
                             <h2 className="InfoName">$$</h2>
                         </div>
                     </div>
                     <div>
-                        <img src={fondoG} alt="Producto1" className='img-p' />
+                        <Link to="/product" ><img src={fondoG} alt="Producto1" className='img-p' /></Link>
                         <div className="infoProduct">
                             <h2 className="InfoName">Producto 6</h2>
                             <h2 className="InfoName">$$</h2>

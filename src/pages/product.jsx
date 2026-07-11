@@ -11,7 +11,7 @@ function Producto() {
                     <img src={fondoG} alt="Producto1" className='img-i' />
                     <div className="Grid-inf">
                         <div className="item-p">
-                            <h2 className="infoNameP">Producto 1</h2>
+                            <h2 className="infoNameP">Producto elegido</h2>
                             <h2 className="infoNameP">$$</h2>
                         </div>
                         <div className="Button-c">Comprar</div>

@@ -2,6 +2,8 @@
     height: 100%;
     margin-top: 10vh;
     padding: 5vh;
+    display: flex;
+    margin: 5vh;
 }
 
 .formContainer{
@@ -59,9 +61,18 @@ text-align: left;
     color: rgb(105, 133, 105);
 }
 
-.img-c{
+.img-c1{
+    position: relative;
     width: 50%;
     height: 60%;
-    transform: translate(20px,-50vh);
-    z-index: -1;
+    transform: translate(-20vh,40vh);
+    z-index: 1;
 }
+
+.img-c2{
+    width: 50%;
+    height: 60%;
+    transform: translate(-100vh,2vh);
+    z-index: -4;
+}
+
