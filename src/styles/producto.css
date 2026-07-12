@@ -3,6 +3,7 @@
     margin-bottom: 15vh;
     margin-top: 10vh;
     padding: 4vh;
+    width: 100%;
 }
 
 .Grid-p {
@@ -53,13 +54,7 @@
 .img-p {
     width: 90%;
     height: 90%;
-    transition: transform 1s ease;
-}
 
-.img-p:hover {
-    transform: scale(1.5, 1.5);
-    ;
-    transition: transform 1s ease;
 }
 
 .img-pinfo{
@@ -89,6 +84,126 @@
     cursor: pointer;
 }
 
+.img-iP {
+    width: 75%;
+    height: 90%;
+    transition: transform 1s ease;
+}
 
+.img-iP:hover {
+    transform: scale(1.2, 1.2);
+    transition: transform 1s ease;
+}
 
+@media (min-width: 400px){
+    .sections-p{
+        margin: 0vh;
+        padding: 0vh;
+        padding-top: 10vh;
+    }
+    .img-iP{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 10vh;        
+    }
 
+    .Grid-p{
+        padding: 0vh;
+        row-gap: 10vh;
+        gap: 1vh;
+        max-width: 599px;
+        min-width: 400px;
+    }
+
+    .infoProduct{
+        margin-top: -2vh;
+        margin-bottom: 7vh;
+        max-width: 110px;
+        min-width: 60px;
+    }
+
+    .InfoName{
+        
+        font-size: 1.7vh;
+        margin-right: 2vh;
+    }
+}
+
+@media (min-width: 600px){
+    .sections-p{
+        margin: 0vh;
+        padding: 0vh;
+        padding-top: 10vh;
+    }
+    
+    .img-iP{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 10vh;        
+    }
+
+    .Grid-p{
+        padding: 1vh;
+        row-gap: 10vh;
+        gap: 1vh;
+        max-width: 799px;
+        min-width: 600px;
+    }
+
+    .infoProduct{
+        margin-top: -2vh;
+        margin-bottom: 7vh;
+        max-width: 200px;
+        min-width: 60px;
+    }
+
+    .InfoName{
+        
+        font-size: 2.05vh;
+        margin-right: 2vh;
+    }
+    
+}
+
+@media (min-width: 800px){
+    .sections-p{
+        margin: 0vh;
+        padding: 0vh;
+        padding-top: 10vh;
+    }
+
+    .img-iP{
+        width: 100%;
+        height: 100%;
+        padding: 0vh;
+    }
+
+    .Grid-p{
+        padding: 1vh;
+        row-gap: 10vh;
+        gap: 1vh;
+        max-width: 1199px;
+        min-width: 800px;
+    }
+
+    .infoProduct{
+        margin-top: -2vh;
+        margin-bottom: 7vh;
+        max-width: 400px;
+        min-width: 100px;
+    }
+
+    .InfoName{
+        font-size: 3vh;
+        margin-right: 2vh;
+    }
+}
+
+@media (min-width: 1200px){
+    .img-iP{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+}

@@ -3,11 +3,10 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 99%;
-    max-width: 95%;
-    min-width: 50%;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     padding: 10px;
     display: flex;
     z-index: 100;
@@ -41,4 +40,77 @@
 
 .App-link {
     color: #61dafb;
+}
+
+@media (min-width: 400px){
+    .App-header{
+        min-width: 400px;
+        max-width: 599px;
+        padding: 0px;
+        font-size: 2vh;
+    }
+    
+    .Title-nav{
+        font-size: 3vh;
+    }
+
+    .items{
+        gap: 1.4vh;
+        padding: 1.5vh;
+    }
+}
+
+@media (min-width: 600px){
+    .App-header{
+        min-width: 600px;
+        max-width: 799px;
+        padding: 2px;
+        font-size: 2.9vh;
+
+    }
+    
+    .Title-nav{
+        font-size: 5vh;
+    }
+
+    .items{
+        gap: 2.3vh;
+        padding: 1.7vh;
+    }
+}
+
+@media (min-width: 800px){
+    .App-header{
+        min-width: 800px;
+        max-width: 1200px;
+        padding: 2px;
+        font-size: 3vh;
+    }
+    
+    .Title-nav{
+        font-size: 5vh;
+    }
+
+    .items{
+        gap: 2.7vh;
+        padding: 2vh;
+    }
+}
+
+@media (min-width: 1200px){
+    .App-header{
+        min-width: 1200px;
+        max-width: 3000px;
+        padding: 2px;
+        font-size: 3.4vh;
+    }
+    
+    .Title-nav{
+        font-size: 6vh;
+    }
+
+    .items{
+        gap: 3vh;
+        padding: 2vh;
+    }
 }

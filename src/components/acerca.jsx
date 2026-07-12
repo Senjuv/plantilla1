@@ -5,7 +5,7 @@ function acercaD() {
         <>
             <section className='sections' id="acerca">
                 <div className='information-con'>
-                    <div>
+                    <div className='div-i'>
                         <h2 className='Tittle-mid'>Un poco de nostros:</h2>
                         <p className='information-p'><strong>Naturally</strong> <br /><br />
                         Ilumina tus espacios con elegancia y aromas que inspiran.
@@ -23,7 +23,7 @@ function acercaD() {
                         Nuestro compromiso es ofrecer productos que combinen calidad, elegancia y una experiencia sensorial única.
                         </p>
                     </div>
-                    <div className='Cont-img'>
+                    <div >
                         <img src={p1} alt="Imagen de tu producto estrella" className='img-i' />
                     </div>
                 </div>
