@@ -23,7 +23,13 @@
         padding: 1vh;
         max-width: 399px;
         min-width: 250px;
+        height: 100%;
         width: 94%;
+    }
+
+    .foo-item{
+        margin: 1vh;
+        font-size: 2vh;
     }
 }
 
