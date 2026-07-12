@@ -10,6 +10,7 @@
     padding: 10px;
     display: flex;
     z-index: 100;
+    vertical-align: middle;
 }
 
 .Title-nav {
@@ -47,16 +48,17 @@
         min-width: 250px;
         max-width: 399px;
         padding: 0px;
-        font-size: 1.5vh;
+        font-size: 1.2vh;
+        width: 95%;
     }
     
     .Title-nav{
-        font-size: 3vh;
+        font-size: 2vh;
     }
 
     .items{
-        gap: 1.4vh;
-        padding: 1.5vh;
+        gap: 1.2vh;
+        padding: 0vh;
     }
 }
 

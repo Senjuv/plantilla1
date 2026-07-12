@@ -95,6 +95,39 @@
     transition: transform 1s ease;
 }
 
+@media (min-width: 250px){
+    .sections-p{
+        margin: 0vh;
+        padding: 0vh;
+        padding-top: 10vh;
+    }
+
+    .img-p{
+        width: 60%;
+        height: 60%;
+        padding-bottom: 5vh;        
+    }
+
+    .Grid-p{
+        padding: 0vh;
+        row-gap: 10vh;
+        gap: 0.5vh;
+        max-width: 389px;
+        min-width: 250px;
+    }
+
+    .infoProduct{
+        margin-top: -2vh;
+        margin-bottom: 7vh;
+        max-width: 70px;
+        min-width: 50px;
+    }
+
+    .InfoName{
+        font-size: 1.2vh;
+        margin-right: 0vh;
+    }
+}
 
 @media (min-width: 400px){
     .sections-p{
