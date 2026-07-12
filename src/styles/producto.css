@@ -95,6 +95,7 @@
     transition: transform 1s ease;
 }
 
+
 @media (min-width: 400px){
     .sections-p{
         margin: 0vh;

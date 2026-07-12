@@ -42,6 +42,24 @@
     color: #61dafb;
 }
 
+@media (min-width: 250px){
+    .App-header{
+        min-width: 250px;
+        max-width: 399px;
+        padding: 0px;
+        font-size: 1.5vh;
+    }
+    
+    .Title-nav{
+        font-size: 3vh;
+    }
+
+    .items{
+        gap: 1.4vh;
+        padding: 1.5vh;
+    }
+}
+
 @media (min-width: 400px){
     .App-header{
         min-width: 400px;

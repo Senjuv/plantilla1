@@ -1,6 +1,5 @@
 function footer() {
     return (
-        <>
             <div className='App-foo'>
                 <div className='foo-item'>
                     <p>Contacto:</p>
@@ -9,7 +8,6 @@ function footer() {
                     <p>Redes sociales:</p>
                 </div>
             </div>
-        </>
     )
 }
 

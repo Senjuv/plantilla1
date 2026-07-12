@@ -26,6 +26,21 @@
     box-shadow: 5px 3px 10px rgb(201, 29, 201);
 }
 
+@media (min-width:250px){
+    .Title-bod{
+        padding: 0px;
+        font-size: 10vh;
+    }
+
+    .img-e{
+        max-width: 25%;
+    }
+
+    .Cont-img{
+        transform: translate(0vh, -9.4vh);
+    }
+}
+
 @media (min-width:400px){
     .Title-bod{
         padding: 0px;

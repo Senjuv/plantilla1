@@ -8,6 +8,7 @@
     height: 100%;
     position: relative;
     z-index: 100;
+    width: 100%;
 }
 
 .foo-item {
@@ -15,6 +16,15 @@
     margin: 3vh;
     font-size: 3vh;
     color: whitesmoke;
+}
+
+@media (min-width: 250px){
+    .App-foo{
+        padding: 1vh;
+        max-width: 399px;
+        min-width: 250px;
+        width: 100%;
+    }
 }
 
 @media (min-width: 400px) {
