@@ -16,18 +16,26 @@ function Productos() {
             <section className="sections-p" id="productos">
                 <h2 className='Tittle-mid'>Nuestros Productos</h2>
                 <div className="Grid-p">
-                    <div>
+                    <div className="div-p">
                         <Link to="/product" ><img src={oso} alt="Producto1" className='img-p' /></Link>
                         <div className="infoProduct">
-                            <h2 className="InfoName">Osito</h2>
-                            <h2 className="InfoName">150$</h2>
+                            <div>
+                                <h2 className="InfoName">Osito</h2>
+                            </div>
+                            <div>
+                                <h2 className="InfoName">150$</h2>
+                            </div>
                         </div>
                     </div>
                     <div>
                         <Link to="/product" ><img src={lavanda2} alt="Producto1" className='img-p' /></Link>
                         <div className="infoProduct">
-                            <h2 className="InfoName">Lavanda con chia</h2>
-                            <h2 className="InfoName">100$</h2>
+                            <div>
+                                <h2 className="InfoName">Lavanda con chia</h2>
+                            </div>
+                            <div>
+                                <h2 className="InfoName">100$</h2>
+                            </div>
                         </div>
                     </div>
                     <div>

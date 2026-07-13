@@ -5,6 +5,7 @@ import '../styles/footer.css';
 import '../styles/acerca.css';
 import '../styles/producto.css';
 import '../styles/contact.css';
+import '../styles/product.css';
 import Navbar from '../components/navbar';
 import BodyMid from '../components/body';
 import AcercaD from '../components/acerca';
