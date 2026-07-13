@@ -1,0 +1,146 @@
+.infoNameP {
+    color: rgb(56, 54, 54);
+    font-size: 20px;
+    text-align: left;
+    vertical-align: middle;
+    margin-right: 10vh;
+}
+
+.infoProductP {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4vh;
+    width: 20vh;
+}
+.img-pinfo {
+    width: 60vh;
+    height: 60vh;
+    transition: transform 1s ease;
+}
+
+.img-pinfo:hover {
+    transform: scale(1.5, 1.5);
+    transition: transform 1s ease;
+}
+
+.Button-c {
+    vertical-align: middle;
+    width: 20vh;
+    height: 5vh;
+    background-color: rgb(207, 204, 204);
+    border-radius: 8px;
+    border-width: 0.5px;
+}
+
+.Button-c:hover {
+    background-color: rgb(80, 83, 87);
+    cursor: pointer;
+}
+
+.Grid-inf {
+    padding: 1vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    vertical-align: middle;
+    border: 2px solid black;
+}
+
+.item-p {
+    padding: 2vh;
+    width: 100%;
+}
+
+@media (min-width: 250px) {
+    .infoProductP{
+        width: 43%;
+    }
+    .infoNameP {
+        font-size: 1.6vh;
+    }
+
+    .img-pinfo {
+        width: 100%;
+        height: 90%;
+        margin: 2vh;
+    }
+
+    .Grid-inf {
+        margin-top: 2vh;
+        text-align: center;
+        margin-left: 4vh;
+        width: 55%;
+        height: 55%;
+    }
+
+        .Button-c {
+        width: 48%;
+        font-size: 50%;
+    }
+
+    .item-p {
+    padding: 2vh;
+    width: 50%;
+}
+}
+
+@media (min-width: 400px) {
+    .img-pinfo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-pinfo {
+        width: 100%;
+        height: 100%;
+        margin: 2vh;
+        padding-top: 2vh;
+    }
+
+    .Grid-inf {
+        padding:3vh;
+        margin-top: 4vh;
+        text-align: center;
+        width: 70%;
+        height: 70%;
+    }
+
+    .infoNameP {
+        font-size: 2.5vh;
+    }
+
+    .Button-c {
+        width: 70%;
+        font-size: 50%;
+    }
+}
+
+@media (min-width: 600px) {
+    .img-pinfo {
+        width: 100%;
+        height: 100%;
+        margin: 2vh;
+        padding-top: 2vh;
+        
+    }
+
+    .Grid-inf {
+        margin-top: 4vh;
+        display: ruby;
+        text-align: center;
+        width: 70%;
+        height: 70%;
+    }
+
+    .infoNameP {
+        font-size: 2.5vh;
+    }
+
+    .Button-c {
+        width: 70%;
+        font-size: 50%;
+    }
+}
+
+@media (min-width: 800px) {
+}
