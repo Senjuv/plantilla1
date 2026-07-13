@@ -1,4 +1,4 @@
-.sections-c{
+.sections-c {
     height: 100%;
     margin-top: 10vh;
     padding: 5vh;
@@ -6,40 +6,43 @@
     margin: 5vh;
 }
 
-.formContainer{
+.formContainer {
     margin-left: 20vh;
     position: relative;
     z-index: 10;
-    width: 50vh;
+    width: 100vh;
     height: 100%;
     background-color: #F4F2F2;
     padding: 4vh;
 }
 
-.Form{
-display: flex;
-justify-content: center;
-text-align: left;
+.Form {
+    width: 50vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: left;
 }
 
-.input-t{
-    width: 40vh;
+.input-t {
+    width: 60vh;
     height: 4vh;
     border-radius: 5px;
 }
 
-.Mesajeform{
+.Mesajeform {
     width: 40vh;
     height: 15vh;
     border-radius: 5px;
 }
-.tittleform{
+
+.tittleform {
     font-size: 20px;
     vertical-align: center;
     text-shadow: 0.5px 0.5px 0.5px rgb(36, 34, 34);
 }
 
-.contact{
+.contact {
     display: block;
 }
 
@@ -61,18 +64,366 @@ text-align: left;
     color: rgb(105, 133, 105);
 }
 
-.img-c1{
+.img-c1 {
     position: relative;
-    width: 50%;
-    height: 60%;
-    transform: translate(-20vh,40vh);
+    width: 100vh;
+    height: 100vh;
+    transform: translate(-20vh, 40vh);
     z-index: 1;
 }
 
-.img-c2{
-    width: 50%;
-    height: 60%;
-    transform: translate(-100vh,2vh);
+.img-c2 {
+    width: 100vh;
+    height: 100vh;
+    transform: translate(-100vh, 2vh);
     z-index: -4;
 }
 
+.h1-t {
+    font-size: 20vh;
+}
+
+::placeholder {
+        font-size: 20px; /* Tamaño del texto */
+        color: gray;     /* Color del texto */
+        opacity: 1;      /* Asegura que el color se vea igual en todos los navegadores */
+    }
+@media (min-width:250px) {
+    .sections-c {
+        padding: 0vh;
+        padding-top: 4vh;
+    }
+
+    .formContainer {
+        margin-left: 10%;
+        width: 90%;
+    }
+
+    .Form {
+        width: 90%;
+        height: 90%;
+    }
+
+    .input-t {
+        width: 100%;
+        height: 5%;
+    }
+
+    .Mesajeform {
+        width: 100%;
+    }
+
+    .Button-E {
+        width: 105%;
+        font-size: 70%;
+    }
+
+    .tittleform {
+        font-size: 60%;
+    }
+
+    .h1-t {
+        font-size: 110%;
+    }
+
+    .img-c1{
+        width: 100%;
+        height: 50%;
+        transform: translate(0vh, 31.5vh);
+    }
+
+    .img-c2{
+        width: 100%;
+        height: 50%;
+        transform: translate(-31vh, -30vh);
+    }
+
+    ::placeholder{
+        font-size: 65%;
+    }
+}
+
+@media (min-width:400px) {
+    .sections-c {
+        padding: 0vh;
+        padding-top: 6vh;
+    }
+
+    .formContainer {
+        margin-left: 25%;
+        width: 110%;
+    }
+
+    .Form {
+        width: 100%;
+        height: 100%;
+    }
+
+    .input-t {
+        width: 100%;
+        height: 7%;
+    }
+
+    .Mesajeform {
+        width: 100%;
+    }
+
+    .Button-E {
+        width: 105%;
+        font-size: 70%;
+    }
+
+    .tittleform {
+        font-size: 82%;
+    }
+
+    .h1-t {
+        font-size: 160%;
+    }
+
+    .img-c1{
+        width: 100%;
+        height: 50%;
+        transform: translate(0vh, 35vh);
+    }
+
+    .img-c2{
+        width: 100%;
+        height: 50%;
+        transform: translate(-46vh, -35vh);
+    }
+
+    ::placeholder{
+        font-size: 83%;
+    }
+}
+
+@media (min-width:600px) {
+    .sections-c {
+        padding: 0vh;
+        padding-top: 8vh;
+    }
+
+    .formContainer {
+        margin-left: 25%;
+        width: 140%;
+        height: 100%;
+    }
+
+    .Form {
+        width: 100%;
+        height: 100%;
+    }
+
+    .input-t {
+        width: 100%;
+        height: 10%;
+    }
+
+    .Mesajeform {
+        width: 100%;
+    }
+
+    .Button-E {
+        width: 105%;
+        font-size: 80%;
+        margin-bottom: 3vh;
+    }
+
+    .tittleform {
+        font-size: 90%;
+    }
+
+    .h1-t {
+        font-size: 200%;
+    }
+
+    .img-c1{
+        width: 100%;
+        height: 50%;
+        transform: translate(0vh, 35vh);
+    }
+
+    .img-c2{
+        width: 100%;
+        height: 50%;
+        transform: translate(-60vh, -35vh);
+    }
+
+    ::placeholder{
+        font-size: 83%;
+    }
+}
+
+@media (min-width:800px) {
+    .sections-c {
+        padding: 0vh;
+        padding-top: 8vh;
+    }
+
+    .formContainer {
+        margin-left: 25%;
+        width: 140%;
+        height: 100%;
+    }
+
+    .Form {
+        width: 100%;
+        height: 100%;
+    }
+
+    .input-t {
+        width: 110%;
+        height: 10%;
+    }
+
+    .Mesajeform {
+        width: 110%;
+    }
+
+    .Button-E {
+        width: 115%;
+        font-size: 90%;
+        margin-bottom: 3vh;
+    }
+
+    .tittleform {
+        font-size: 97%;
+    }
+
+    .h1-t {
+        font-size: 200%;
+    }
+
+    .img-c1{
+        width: 100%;
+        height: 50%;
+        transform: translate(0vh, 35vh);
+    }
+
+    .img-c2{
+        width: 100%;
+        height: 50%;
+        transform: translate(-80vh, -35vh);
+    }
+
+    ::placeholder{
+        font-size: 90%;
+    }
+}
+
+@media (min-width:1000px) {
+    .sections-c {
+        padding: 0vh;
+        padding-top: 10vh;
+    }
+
+    .formContainer {
+        
+        margin-left: 35%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .Form {
+        width: 100%;
+        height: 100%;
+    }
+
+    .input-t {
+        width: 110%;
+        height: 10%;
+    }
+
+    .Mesajeform {
+        width: 110%;
+    }
+
+    .Button-E {
+        width: 115%;
+        font-size: 100%;
+        margin-bottom: 5vh;
+    }
+
+    .tittleform {
+        font-size: 100%;
+    }
+
+    .h1-t {
+        font-size: 220%;
+    }
+
+    .img-c1{
+        width: 100%;
+        height: 50%;
+        transform: translate(-10vh, 35vh);
+    }
+
+    .img-c2{
+        width: 100%;
+        height: 50%;
+        transform: translate(-89vh, -35vh);
+    }
+
+    ::placeholder{
+        font-size: 98%;
+    }
+}
+
+@media (min-width:1200px) {
+    .sections-c {
+        padding: 0vh;
+        padding-top: 12vh;
+    }
+
+    .formContainer {
+        
+        margin-left: 25%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .Form {
+        width: 100%;
+        height: 100%;
+    }
+
+    .input-t {
+        width: 130%;
+        height: 10%;
+    }
+
+    .Mesajeform {
+        width: 130%;
+    }
+
+    .Button-E {
+        width: 135%;
+        font-size: 100%;
+        margin-bottom: 5vh;
+    }
+
+    .tittleform {
+        font-size: 110%;
+    }
+
+    .h1-t {
+        font-size: 250%;
+    }
+
+    .img-c1{
+        width: 100%;
+        height: 50%;
+        transform: translate(0vh, 35vh);
+    }
+
+    .img-c2{
+        width: 100%;
+        height: 50%;
+        transform: translate(-100vh, -35vh);
+    }
+
+    ::placeholder{
+        font-size: 105%;
+    }
+}

@@ -8,7 +8,7 @@ function Contact() {
             <Navbar />
             <section className="sections-c" id="productos">
                 <div className="formContainer">
-                    <h1>Contactenos</h1>
+                    <h1 className="h1-t">Contactenos</h1>
                     <br />
                     <div className="Form">
                     <form action="" >
