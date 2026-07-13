@@ -7,16 +7,16 @@
 }
 
 .Grid-p {
-    
+    text-align: center;
     padding: 5vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     row-gap: 20vh;
-    
+
 }
 
-.Grid-inf{
+.Grid-inf {
     padding: 2vh;
     display: grid;
     grid-template-columns: 1fr;
@@ -24,12 +24,11 @@
     row-gap: 4vh;
     vertical-align: middle;
     border: 2px solid black;
-    
+
 }
 
 .InfoName {
     font-size: 20px;
-    text-align: left;
     vertical-align: middle;
     margin-left: 3vh;
     margin-right: 5vh;
@@ -40,7 +39,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 4vh;
-    
+    width: 100%;
 }
 
 .infoNameP {
@@ -52,26 +51,24 @@
 }
 
 .img-p {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
 
 }
 
-.img-pinfo{
-    width: 50%;
-    height: 50%;
+.img-pinfo {
+    width: 40vh;
+    height: 40vh;
     transition: transform 1s ease;
 }
 
 .img-pinfo:hover {
     transform: scale(1.5, 1.5);
-    ;
     transition: transform 1s ease;
 }
 
 .Button-c {
     vertical-align: middle;
-    margin-top: 10vh;
     width: 20vh;
     height: 5vh;
     background-color: rgb(207, 204, 204);
@@ -95,20 +92,28 @@
     transition: transform 1s ease;
 }
 
-@media (min-width: 250px){
-    .sections-p{
+.item-p {
+    padding: 2vh;
+    width: 97%;
+}
+
+@media (min-width: 250px) {
+    .sections-p {
         margin: 0vh;
         padding: 0vh;
         padding-top: 10vh;
+        height: 100%;
     }
 
-    .img-p{
-        width: 60%;
+    .img-p {
+        width: 70%;
         height: 60%;
-        padding-bottom: 5vh;        
+        padding-bottom: 5vh;
     }
 
-    .Grid-p{
+    .Grid-p {
+        align-items: center;
+        vertical-align: middle;
         padding: 0vh;
         row-gap: 10vh;
         gap: 0.5vh;
@@ -116,32 +121,59 @@
         min-width: 250px;
     }
 
-    .infoProduct{
+    .infoProduct {
+        text-align: center;
         margin-top: -2vh;
         margin-bottom: 7vh;
-        max-width: 70px;
-        min-width: 50px;
+        width: 49%;
     }
 
-    .InfoName{
-        font-size: 1.2vh;
+    .InfoName {
+        transform: translate(4vh, 0vh);
+        font-size: 1vh;
         margin-right: 0vh;
+
+    }
+
+    .img-pinfo {
+        width: 100%;
+        height: 100%;
+        margin: 2vh;
+    }
+
+    .Grid-inf {
+        margin-top: 2vh;
+        display: ruby;
+        text-align: center;
+        width: 60%;
+        height: 50%;
+    }
+
+    .infoNameP {
+        font-size: 2vh;
+    }
+
+    .Button-c {
+        width: 70%;
+        font-size: 50%;
     }
 }
 
-@media (min-width: 400px){
-    .sections-p{
+@media (min-width: 400px) {
+    .sections-p {
         margin: 0vh;
         padding: 0vh;
         padding-top: 10vh;
     }
-    .img-iP{
+
+    .img-iP {
         width: 100%;
         height: 100%;
-        padding-bottom: 10vh;        
+        padding-bottom: 10vh;
+        
     }
 
-    .Grid-p{
+    .Grid-p {
         padding: 0vh;
         row-gap: 10vh;
         gap: 1vh;
@@ -149,34 +181,64 @@
         min-width: 400px;
     }
 
-    .infoProduct{
+    .infoProduct {
+        text-align: center;
         margin-top: -2vh;
         margin-bottom: 7vh;
-        max-width: 110px;
-        min-width: 60px;
+        width: 60%;
     }
 
-    .InfoName{
-        
+    .InfoName {
+        transform: translate(8vh, 0px);
         font-size: 1.7vh;
         margin-right: 2vh;
     }
+
+    .img-pinfo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-pinfo {
+        width: 100%;
+        height: 100%;
+        margin: 2vh;
+        padding-top: 2vh;
+    }
+
+    .Grid-inf {
+        padding:3vh;
+        margin-top: 4vh;
+        text-align: center;
+        width: 70%;
+        height: 70%;
+    }
+
+    .infoNameP {
+        font-size: 2.5vh;
+    }
+
+    .Button-c {
+        width: 70%;
+        font-size: 50%;
+    }
+
 }
 
-@media (min-width: 600px){
-    .sections-p{
+@media (min-width: 600px) {
+    .sections-p {
         margin: 0vh;
         padding: 0vh;
         padding-top: 10vh;
     }
-    
-    .img-iP{
+
+    .img-iP {
         width: 100%;
         height: 100%;
-        padding-bottom: 10vh;        
+        padding-bottom: 10vh;
     }
 
-    .Grid-p{
+    .Grid-p {
         padding: 1vh;
         row-gap: 10vh;
         gap: 1vh;
@@ -184,35 +246,61 @@
         min-width: 600px;
     }
 
-    .infoProduct{
+    .infoProduct {
+        text-align: center;
         margin-top: -2vh;
         margin-bottom: 7vh;
-        max-width: 200px;
-        min-width: 60px;
+        width: 55%;
     }
 
-    .InfoName{
-        
+    .InfoName {
+        transform: translate(10vh, 0px);
         font-size: 2.05vh;
         margin-right: 2vh;
     }
+
+    .img-pinfo {
+        width: 100%;
+        height: 100%;
+        margin: 2vh;
+        padding-top: 2vh;
+        
+    }
+
+    .Grid-inf {
+        margin-top: 4vh;
+        display: ruby;
+        text-align: center;
+        width: 70%;
+        height: 70%;
+    }
+
+    .infoNameP {
+        font-size: 2.5vh;
+    }
+
+    .Button-c {
+        width: 70%;
+        font-size: 50%;
+    }
+
     
 }
 
-@media (min-width: 800px){
-    .sections-p{
+@media (min-width: 800px) {
+    .sections-p {
         margin: 0vh;
         padding: 0vh;
         padding-top: 10vh;
     }
 
-    .img-iP{
+    .img-iP {
         width: 100%;
         height: 100%;
         padding: 0vh;
     }
 
-    .Grid-p{
+    .Grid-p {
         padding: 1vh;
         row-gap: 10vh;
         gap: 1vh;
@@ -220,24 +308,27 @@
         min-width: 800px;
     }
 
-    .infoProduct{
+    .infoProduct {
+        align-items: center;
+        text-align: center;
         margin-top: -2vh;
         margin-bottom: 7vh;
         max-width: 400px;
         min-width: 100px;
     }
 
-    .InfoName{
+    .InfoName {
+        transform: translate(12vh, 0px);
         font-size: 3vh;
         margin-right: 2vh;
     }
 }
 
-@media (min-width: 1200px){
-    .img-iP{
+@media (min-width: 1200px) {
+    .img-iP {
         width: 100%;
         height: 100%;
     }
 
-    
+
 }

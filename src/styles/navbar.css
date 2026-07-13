@@ -46,7 +46,7 @@
 @media (min-width: 250px){
     .App-header{
         min-width: 250px;
-        max-width: 399px;
+        max-width: 100%;
         padding: 0px;
         font-size: 1.2vh;
         width: 94%;
@@ -58,7 +58,7 @@
 
     .items{
         gap: 1.2vh;
-        padding: 0vh;
+        padding: 1vh;
     }
 }
 

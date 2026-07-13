@@ -21,14 +21,13 @@
 
 @media (min-width: 250px){
     .App-foo{
-        padding: 1vh;
+        padding: 0vh;
         max-width: 399px;
         min-width: 250px;
         width: 100%;
     }
 
     .foo-item{
-        
         font-size: 2vh;
     }
 }
@@ -40,6 +39,9 @@
         min-width: 400px;
         width: 100%;
     }
+    .foo-item{
+        font-size: 3vh;
+    }
 }
 
 @media (min-width: 600px) {
@@ -48,6 +50,10 @@
         width: 100%;
         max-width: 799px;
         min-width: 600px;
+    }
+
+    .foo-item{
+        font-size: 3vh;
     }
 }
 
@@ -58,6 +64,10 @@
         min-width: 800px;
         width: 100%;
     }
+    
+    .foo-item{
+        font-size: 3.5vh;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -66,5 +76,9 @@
         max-width: 2000px;
         min-width: 1200px;
         width: 100%;
+    }
+
+    .foo-item{
+        font-size: 4vh;
     }
 }
