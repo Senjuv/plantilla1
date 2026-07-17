@@ -19,7 +19,7 @@
 }
 
 .items {
-    font-size: clamp(.55rem, 3vw, 1.2rem);
+    font-size: clamp(.5rem, 3vw, 1.2rem);
     display: inline-flex;
     align-items: center;
     gap: .5em;
