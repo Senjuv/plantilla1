@@ -37,20 +37,10 @@
     height: 100%;
 }
 
-.img-iP {
-    width: 75%;
-    height: 90%;
-    transition: transform 1s ease;
-}
-
-.img-iP:hover {
-    transform: scale(1.2, 1.2);
-    transition: transform 1s ease;
-}
-
 .div-p{
     text-align: center;
 }
+
 @media (min-width: 250px) {
     .sections-p {
         margin: 0vh;

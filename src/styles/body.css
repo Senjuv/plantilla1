@@ -1,12 +1,13 @@
 
 .App-body {
-    margin-top: 20vh;
+    margin-top: 5rem;
     display: block;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .Title-bod {
-    font-size: 20vh;
+    font-size: clamp(4rem, 18vw, 20rem);
     text-shadow: 1px 2px 5px gray;
 }
 
@@ -14,82 +15,13 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-bottom: 8vh;
-    transform: translate(0vh, -11vh);
+    padding-bottom: 0rem;
+    margin-top: clamp(-9rem, -15vw, -4.2rem);
 }
 
 .img-e {
-    width: 38%;
-    height: 50%;
+    width: clamp(4rem, 20vw, 15rem);
     margin-bottom: 20vh;
     transform: rotate(22deg);
     box-shadow: 5px 3px 10px rgb(201, 29, 201);
-}
-
-@media (min-width:250px){
-    .Title-bod{
-        padding: 0px;
-        font-size: 10vh;
-    }
-
-    .img-e{
-        max-width: 25%;
-    }
-
-    .Cont-img{
-        transform: translate(0vh, -9.4vh);
-    }
-}
-
-@media (min-width:400px){
-    .Title-bod{
-        padding: 0px;
-        font-size: 12vh;
-    }
-
-    .img-e{
-        max-width: 30%;
-    }
-}
-
-@media (min-width:600px){
-    .Title-bod{
-        padding: 0px;
-        font-size: 18vh;
-    }
-
-    .Cont-img{
-        transform: translate(0vh, -16vh);
-    }
-    .img-e{
-        width: 40%;
-    }
-}
-
-@media (min-width:800px){
-    .Title-bod{
-        padding: 0px;
-        font-size: 23vh;
-    }
-
-    .Cont-img{
-        transform: translate(0vh, -20vh);
-    }
-    .img-e{
-        width: 40%;
-    }
-}
-
-@media (min-width:1200px){
-    .Title-bod{
-        padding: 0px;
-        font-size: 27vh;
-    }
-
-    .Cont-img{
-        transform: translate(0vh, -22vh);
-    }
-    .img-e{
-        width: 45%;
-    }
 }

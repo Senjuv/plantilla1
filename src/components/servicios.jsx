@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 function service(){
     return(
         <>
-        <section className="sections" id="Service">
-            <h2 className='Tittle-mid'>Nuevos productos:</h2>
+        <section className="section-s" id="Service">
+            <h2 className='Tittle-mid'>Productos destacados:</h2>
             <div className="information-con">
                 <div>
                     <Link to="/product"><img src={oso} alt="Producto1" className='img-iP' /></Link>
@@ -18,9 +18,6 @@ function service(){
                 </div>
                 <div>
                     <Link to="/product"><img src={verde} alt="Producto1" className='img-iP' /></Link>
-                </div>
-                <div>
-                    <Link to="/product"><img src={cuatro} alt="Producto1" className='img-iP' /></Link>
                 </div>
             </div>
         </section>
