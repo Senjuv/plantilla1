@@ -1,7 +1,6 @@
 import oso from '../img/osito.jpeg';
 import lavanda2 from '../img/lavanda2.jpeg';
 import verde from '../img/verde.jpeg';
-import cuatro from '../img/cuatro.jpeg';
 import { Link } from 'react-router-dom';
 
 function service(){
