@@ -1,5 +1,6 @@
 
 .App-header {
+    scroll-behavior: inherit;
     position: fixed;
     top: 0;
     left: 0;
@@ -16,6 +17,7 @@
     font-size: clamp(.1rem, 5vw, 2rem);
     text-shadow: 1px 1px 1px rgb(117, 101, 101);
     margin-top: .4rem;
+    margin-right: .5rem;
 }
 
 .items {

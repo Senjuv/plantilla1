@@ -5,22 +5,20 @@ import { Link } from 'react-router-dom';
 
 function service(){
     return(
-        <>
         <section className="section-s" id="Service">
             <h2 className='Tittle-mid'>Productos destacados:</h2>
-            <div className="information-con">
-                <div>
+            <div className="information-conS">
+                <div className='img-pd'>
                     <Link to="/product"><img src={oso} alt="Producto1" className='img-iP' /></Link>
                 </div>
-                <div>
+                <div className='img-pd'>
                     <Link to="/product"><img src={lavanda2} alt="Producto1" className='img-iP' /></Link>
                 </div>
-                <div>
+                <div className='img-pd'>
                     <Link to="/product"><img src={verde} alt="Producto1" className='img-iP' /></Link>
                 </div>
             </div>
         </section>
-        </>
     )
 }
 
